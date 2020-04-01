@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Stoarge Comments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="comment-container">
+        <h3 class="comment-container-title">Comments</h3>
+        
+        <div class="comments">
+
+            <div class="comment flex items-start justify-start">
+                <img class="comment-avatar" src="https://picsum.photos/200" alt="comment-avatar" />
+                <div class="flex-1">
+                    <h3 class="comment-author">Antonio K</h3>
+                    <p class="comment-body">First comment!!</p>
+                </div>
+            </div>
+
+            <div class="comment comment-new flex items-start justify-start">
+                <img class="comment-avatar" src="https://picsum.photos/200" alt="comment-avatar" />
+                <div class="flex-1">
+                    <h3 class="comment-author">Antonio K</h3>
+                    <form action="" class="comment-form" required>
+                        <textarea
+                        placeholder="Add a comment"
+                        class="comment-input"
+                        required
+                        ></textarea>
+                        <input type="submit" class="comment-submit" value="Reply ">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
